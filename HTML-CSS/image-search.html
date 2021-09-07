@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Google Image Search</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header class="page-header">
+      <nav class="links">
+        <ul>
+          <li><a href="./index.html">Google Search</a></li>
+        </ul>
+      </nav>
+      <div class="google-logo">
+        <figure>
+          <img src="./img/google-logo.png" alt="Google logo" />
+          <figcaption>images</figcaption>
+        </figure>
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Main Section -->
+    <main class="container">
+      <form action="https://www.google.com/search" method="GET">
+        <input hidden="true" name="tbm" value="isch" />
+        <input type="text" name="q" />
+        <input type="submit" id="searchsubmit" />
+      </form>
+    </main>
+    <!-- End Main Section -->
+  </body>
+</html>
