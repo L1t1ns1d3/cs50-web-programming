@@ -81,3 +81,15 @@ input[type="submit"]:hover {
   border-radius: 6px;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
+
+figcaption {
+  text-align: right; /* ADD Me */
+  position: relative;
+  bottom: 28px;
+  right: 15px;
+  color: #00e;
+}
+
+#searchsubmit {
+  visibility: hidden;
+}
