@@ -6,7 +6,7 @@
 
 - Lucky -> Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
 
-# Google Image Search -> ()
+# Google Image Search -> (done)
 
 - Upper right -> Back to google search
 
